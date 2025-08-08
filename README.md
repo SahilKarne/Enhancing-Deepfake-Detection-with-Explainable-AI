@@ -90,8 +90,8 @@ It achieves **99.69% accuracy** on the **140k Real-vs-Fake Faces** dataset, prov
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/SahilKarne/Enhancing-Deepfake-Detection-with-Explainable-AI.git
+cd Enhancing-Deepfake-Detection-with-Explainable-AI
 ```
 
 ### 2️⃣ Install Requirements
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the Notebook
 
-Open `deepfake_detection_with_xai.ipynb` in Jupyter/Colab and run all cells.
+Open `Enhancing-Deepfake-Detection-with-XAI.ipynb` in Jupyter/Colab and run all cells.
 Make sure to download and extract the dataset into the specified directory in the notebook.
 
 ---
@@ -110,28 +110,12 @@ Make sure to download and extract the dataset into the specified directory in th
 ## 📌 Project Structure
 
 ```
-├── deepfake_detection_with_xai.ipynb    # Main implementation
-├── requirements.txt                     # Python dependencies
-├── weights/                             # Pre-trained model weights
-├── assets/                              # Images for README
-└── README.md                            # Project documentation
+├── Enhancing-Deepfake-Detection-with-XAI.ipynb    # Main implementation
+├── requirements.txt                               # Python dependencies
+├── model_cp.weights.hs                            # Pre-trained model weights
+├── assets/                                        # Images for README
+└── README.md                                      # Project documentation
 
-```
-
----
-
-## 📜 Citation
-
-If you use this work, please cite:
-
-```
-@inproceedings{karne2025deepfake,
-  title={Enhancing Deepfake Detection with Explainable AI},
-  author={Sahil Karne, Siddhesh Kotwal, Aryan Tamboli, Diptee Ghusse, Sunita Barve},
-  booktitle={2025 Third International Conference on Networks, Multimedia and Information Technology (NMITCON)},
-  year={2025},
-  organization={IEEE}
-}
 ```
 
 ---
